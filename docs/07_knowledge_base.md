@@ -159,5 +159,5 @@ The SKB v5.1 architecture turns the database into a **Bank of Meaning**.
 4.  **Labor is rewarded:** Every L2 entry increases social capital (SBT).
 
 This is the foundation for building a **Civilization of Memory**.
-```
+
 
