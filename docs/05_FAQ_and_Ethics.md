@@ -71,5 +71,5 @@
     *   **AI is Infrastructure.** It ensures survival.
     *   **Human is the Subject.** The source of Will and Goal.
     *   The meaning of life is to be the **Pilot** of this perfect Ship.
-```
+---
 
