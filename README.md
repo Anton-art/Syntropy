@@ -19,27 +19,27 @@ graph LR
     classDef interface fill:#e0f7fa,stroke:#00cec9,stroke-width:2px,color:#2d3436;
     classDef environment fill:#dfe6e9,stroke:#636e72,stroke-width:2px,color:#2d3436;
 
-    subgraph L0_ZONE [🟥 L0: PARTICLE (Chaos & Will)]
+     subgraph L0_ZONE ["🟥 L0: PARTICLE (Chaos & Will)"]
         direction TB
-        Human((👤 HUMAN))
-        Will[🔥 WILL / PRIME MOVER]
-        Bio[❤️ Biology / Pulse]
-        LocalStore[(🔒 Local Vault)]
+        Human(("👤 HUMAN"))
+        Will["🔥 WILL / PRIME MOVER"]
+        Bio["❤️ Biology / Pulse"]
+        LocalStore[("🔒 Local Vault")]
     end
 
-    subgraph GATEWAY [🛡️ THE INTERFACE (Filter)]
+    subgraph GATEWAY ["🛡️ THE INTERFACE (Filter)"]
         direction TB
-        Agent[🤖 PERSONAL AGENT]
-        SVE{💎 SVE ENGINE<br/>Valuation}
-        Privacy[Unknown Block<br/>Privacy Guard 25/75]
+        Agent["🤖 PERSONAL AGENT"]
+        SVE{"💎 SVE ENGINE<br/>Valuation"}
+        Privacy["Unknown Block<br/>Privacy Guard 25/75"]
     end
 
-    subgraph L1_L3_ZONE [🌍 L1-L3: ENVIRONMENT (Order & Scale)]
+    subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT (Order & Scale)"]
         direction TB
-        AI((🧠 GLOBAL AI))
-        Ledger[(💰 Sigma Ledger)]
-        Infra[🏗️ Infrastructure]
-        Archive[❄️ Deep Archive]
+        AI(("🧠 GLOBAL AI"))
+        Ledger[("💰 Sigma Ledger")]
+        Infra["🏗️ Infrastructure"]
+        Archive["❄️ Deep Archive"]
     end
 
     %% FLOW OF MEANING (From Human to Environment)
