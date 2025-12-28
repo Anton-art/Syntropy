@@ -1,5 +1,3 @@
-
-```python
 """
 SYNTROPIC VALUE ENGINE (SVE) v4.1
 Core Decision Logic & Social Protocols.
@@ -296,4 +294,5 @@ if __name__ == "__main__":
     print(f"FINAL JURY DECISION: {verdict.value}")
     print("\n=== TESTS COMPLETED SUCCESSFULLY ===")
 ```
+
 
