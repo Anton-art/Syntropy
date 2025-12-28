@@ -126,7 +126,7 @@ class GreenProtocol:
             Wallet.add_shadow_sigma(user, eco_act.value)
             Log.write(f"Sovereign {user.id} increased biodiversity.")
 ```
-```
+
 
 
 
