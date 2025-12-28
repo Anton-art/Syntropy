@@ -59,7 +59,9 @@ $$ \mu = \underbrace{\left[ \left( 1 - \frac{L_{Code}}{L_{Data}} \right) \cdot K
 
 1.  **Potential (Sleeping Asset):**
     *   **Compression:** MDL Principle. The more concisely a formula describes reality, the truer it is.
-    *   **$K_{3:1}$ (Vitality):** Meaning must not be dead static. It must contain **75% Logic** and **25% Art/Paradox**.
+    *   **$K_{3:1}$ (Vitality):** Meaning requires a thermodynamic balance between **Structure** and **Novelty**.
+        *   **75% Order:** Foundation, rules, memory (To survive).
+        *   **25% Chaos:** Risk, intuition, mutation (To evolve).
     *   *Note:* An idea without implementation has high Potential ($\mu_{pot}$). AI does not delete it, but stores it in the "Gold Reserve" until resources appear.
 2.  **Implementation (Kinetics):**
     *   Meaning arises only in interaction with matter.
