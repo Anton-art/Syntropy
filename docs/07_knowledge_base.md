@@ -63,7 +63,7 @@ The Environment uses two independent scales for data management.
 
 JSON structure of a "Syntropic Asset". Implements binding to owner (DID) and proof of value.
 
-```jsonc
+```JavaScript
 {
   "asset_id": "uuid-v4-hash",
   "owner_did": "did:syntropy:particle_x892...", // Owner (Particle)
