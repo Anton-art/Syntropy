@@ -129,6 +129,5 @@ We acknowledge the risks of algorithmic paternalism. The entire system is built 
 ### 📄 License
 This project is licensed under **CC-BY-SA 4.0** (Creative Commons Attribution-ShareAlike).
 Code components (SVE) are licensed under **MIT License**.
-```
 
 ---
