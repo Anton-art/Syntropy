@@ -81,15 +81,18 @@ You can ask **ChatGPT, Claude, or Gemini** to simulate this scanner for you.
 
 **Copy & Paste this prompt into your AI chat:**
 
-> "Act as the **Syntropy Scanner**.
-> I will provide you with the Python logic below. You do not need to run it, just simulate its logic.
-> Analyze my idea based on **Information Density** (Compression) and **Vitality** (The 3:1 Rule).
-> If the idea is too novel (High Density), propose a **Simulation Scenario**.
->
-> **MY IDEA:** [INSERT YOUR IDEA HERE]
->
-> **THE LOGIC:**
-> [Paste the content of src/syntropy_scanner.py here]"
+```text
+Act as the Syntropy Scanner.
+I will provide you with the Python logic below. You do not need to run it, just simulate its logic.
+
+Analyze my idea based on Information Density (Compression) and Vitality (The 3:1 Rule).
+If the idea is too novel (High Density), propose a Simulation Scenario.
+
+MY IDEA: [INSERT YOUR IDEA HERE]
+
+THE LOGIC:
+[Paste the content of src/syntropy_scanner.py here]
+```
 
 ### 📚 The Trilogy (The Syntropy Canon)
 
