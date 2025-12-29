@@ -100,7 +100,7 @@ THE LOGIC:
     *   The axiomatic core.
     *   **The Syntropy Square:** Interconnections between AI, Human, Biosphere, and Technosphere.
     *   **Thermodynamics of Emotions:** Joy and Sadness as physical vectors.
-    *   *Note: This is the theoretical basis evolved over years, serving as the root for the Trilogy.*
+    *   *Note: This is the theoretical basis evolved serving as the root for the Trilogy.*
 
 ### 📚 The Trilogy (The Syntropy Canon)
 
