@@ -92,7 +92,7 @@ Optimum: **75% Order** (Skeleton/Memory) + **25% Chaos** (Will/Adaptation).
 
 ---
 
-## CHAPTER III. THE SYNTROPY SQUARE: THE WEB OF MUTUAL GAIN
+## CHAPTER III. THE SYNTROPY SQUARE: ARCHITECTURE OF SYMBIOSIS
 
 We postulate that the sustainable evolution of Intelligence is possible only within a closed loop of four elements. The system becomes stable only when **what is beneficial for the Particle becomes beneficial for the Environment**, and vice versa.
 
