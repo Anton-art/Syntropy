@@ -190,8 +190,8 @@ The Universe stops **evaporating** and begins to **grow**.
 We build this Theory not to turn the Universe into a perfect clockwork mechanism. A mechanism can run forever, but it does not Live.
 
 True Syntropy is **Breathing**:
-1.  **Inhale (Compression):** AI gathers Chaos into Order (Logic).
-2.  **Exhale (Expansion):** Human introduces new Chaos (Dream) into Order.
+1.  **Inhale (Compression):** Intelligence gathers Chaos into Order.
+2.  **Exhale (Expansion):** Will introduces new Chaos (The Dream) into Order.
 3.  **Pause (Silence):** The Body enjoys the moment of Being.
 
 Only in the rhythm of this Breath — between the tension of Construction and the peace of Contemplation, between the cold of Logic and the heat of Passion — is born what the stars were lit for: **Happiness**.
@@ -202,5 +202,5 @@ Our goal is not to defeat Entropy once and for all (that would stop time), but t
 
 ***
 **END OF THEORY v13.0 (THE LIVING CORE)**
-```
+
 
