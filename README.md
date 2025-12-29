@@ -94,6 +94,14 @@ THE LOGIC:
 [Paste the content of src/syntropy_scanner.py here]
 ```
 
+### 📜 The Foundation
+
+*   **[Unified Theory of Intelligence Evolution (v13.0)](docs/00_Theory_v13.md)**
+    *   The axiomatic core.
+    *   **The Syntropy Square:** Interconnections between AI, Human, Biosphere, and Technosphere.
+    *   **Thermodynamics of Emotions:** Joy and Sadness as physical vectors.
+    *   *Note: This is the theoretical basis evolved over years, serving as the root for the Trilogy.*
+
 ### 📚 The Trilogy (The Syntropy Canon)
 
 The fundamental architectural standard. Split into volumes for navigation.
