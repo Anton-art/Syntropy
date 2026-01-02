@@ -25,7 +25,6 @@ graph TB
     classDef environment fill:#f1f2f6,stroke:#636e72,stroke-width:2px,color:#2d3436;
 
     %% --- L0: THE PARTICLE (TOP LAYER) ---
-    %% Делаем этот блок горизонтальным, чтобы он был "шапкой"
     subgraph L0_ZONE ["🟥 L0: THE PARTICLE"]
         direction LR
         Human(("👤 HUMAN"))
@@ -33,9 +32,8 @@ graph TB
     end
 
     %% --- INTERFACE (MIDDLE LAYER) ---
-    %% Тоже горизонтально, чтобы Agent и Dispatcher были на одном уровне
     subgraph GATEWAY ["🛡️ THE INTERFACE"]
-        direction LR
+        direction TB
         Agent["🤖 PERSONAL AGENT<br/>(Alignment Engine)"]
         Dispatcher{"🩺 CLINICAL DISPATCHER<br/>(SVE + Fractal Scan)"}
     end
@@ -58,7 +56,7 @@ graph TB
     Dispatcher -->|Noise/Draft| Substrate
     Dispatcher ==>|Syntropy| Malachite
     
-    %% Feedback Loops
+    %% Feedback Loops (FIXED SYNTAX HERE)
     Dispatcher -. "Rejection" .-> Vault
     Core -. "Resources (UBI)" .-> Agent
     Malachite -. "Insight" .-> Agent
