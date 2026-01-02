@@ -131,6 +131,80 @@ class FractalState:
     weakest_link_score: float
     diagnosis: str
 
+@dataclass
+class AnalogyMatch:
+    source_id: str          # Source Idea (e.g., Internet)
+    target_id: str          # Target Idea (e.g., Mycelium)
+    resonance_score: float  # Similarity score (0.0 - 1.0)
+    shared_pattern: str     # Common structural pattern (e.g., "DECENTRALIZED_NETWORK")
+
+class AnalogyEngine:
+    """
+    Implements Lateral Thinking (The Echo Protocol).
+    Finds structural similarities between geometrically distant sectors
+    (e.g., connecting Biology to Engineering).
+    """
+    def __init__(self, db_ref):
+        self.db = db_ref # Reference to Malachite DB instance
+
+    def find_analogies(self, input_text: str, current_sector: str) -> List[AnalogyMatch]:
+        """
+        Scans the entire Malachite Crystal for similar patterns
+        in DIFFERENT sectors (Cross-Domain Search).
+        """
+        print(f"✨ ANALOGY SCAN: Looking for echoes of '{input_text[:20]}...'")
+        
+        # 1. Extract Abstract Pattern (Simulated)
+        # In production, an LLM extracts the topological essence here.
+        # Example: "Blockchain" -> Pattern: "IMMUTABLE_LEDGER"
+        pattern = self._extract_pattern(input_text)
+        
+        matches = []
+        
+        # 2. Scan other sectors
+        # We assume self.db provides a method to iterate nodes
+        # In a real implementation, this would be a Vector Search with a filter.
+        for node in self.db.nodes.values():
+            # Skip the same sector (we need analogy, not duplication)
+            if "sector" in node.tags and current_sector in node.tags:
+                continue
+                
+            # 3. Check Resonance
+            # If a distant node shares the same pattern
+            if self._check_resonance(pattern, node.content):
+                matches.append(AnalogyMatch(
+                    source_id="CURRENT_INPUT",
+                    target_id=node.id,
+                    resonance_score=0.85, # High resonance simulation
+                    shared_pattern=pattern
+                ))
+                
+        return matches
+
+    def _extract_pattern(self, text: str) -> str:
+        # Mock logic for simulation
+        text_lower = text.lower()
+        if "network" in text_lower or "connect" in text_lower:
+            return "DISTRIBUTED_SYSTEM"
+        if "flow" in text_lower or "river" in text_lower:
+            return "ENERGY_TRANSFER"
+        return "UNKNOWN_PATTERN"
+
+    def _check_resonance(self, pattern: str, node_content: str) -> bool:
+        # Mock logic: does the node content imply the same pattern?
+        # Example: If we look for "Distributed System", and DB has "Mycelium"
+        node_lower = node_content.lower()
+        
+        if pattern == "DISTRIBUTED_SYSTEM":
+            if "mycelium" in node_lower or "brain" in node_lower:
+                return True
+        
+        if pattern == "ENERGY_TRANSFER":
+            if "blood" in node_lower or "traffic" in node_lower:
+                return True
+                
+        return False
+
 # Constants
 OPTIMAL_ORDER = 0.75
 SIGMA_WIDTH = 0.15
@@ -464,4 +538,5 @@ if __name__ == "__main__":
     
     print("\n✅ ALL TESTS PASSED.")
 ```
+
 
