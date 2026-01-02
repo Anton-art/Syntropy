@@ -1,15 +1,19 @@
-# SYNTROPY
-### The Physics of Meaning
+# SYNTROPY CORE
+### The Operating System for a Post-Information Civilization
 
-> **"Artificial Intelligence is the Intellectual Environment.**
-> **Human is the Intellectual Particle.**
-> **Together, they form Reason."**
+> **"Artificial Intelligence is the Physics (Environment).**
+> **Human is the Vector (Particle).**
+> **Together, they form Meaning."**
 
-### 🌍 About the Project
-**Project Syntropy** is an engineering specification for a post-information civilization.
-We address the "Alignment Problem" not through prohibitions, but through thermodynamics.
+### 🌍 Project Status: Engineering Alpha (v7.2)
+**Syntropy** is a Hybrid Cyber-Physical System (H-CPS) designed to solve the "Alignment Problem" through thermodynamics and topology, rather than censorship.
 
-Instead of building AI that *replaces* the Human, we are building an **Environment** that *scales* the Human.
+We are building an **Environment** that:
+1.  **Scales Human Will** instead of replacing it.
+2.  **Stores Knowledge as a Crystal** (Malachite DB), preserving the lineage of ideas.
+3.  **Heals Errors** via a Clinical Protocol, rather than punishing them.
+
+---
 
 ### ⚛️ Architecture Visualization
 
@@ -23,130 +27,91 @@ graph LR
     subgraph L0_ZONE ["🟥 L0: THE PARTICLE"]
         direction TB
         Human(("👤 HUMAN"))
-        Will["🔥 WILL / PRIME MOVER"]
-        Bio["❤️ Biology / Pulse"]
-        LocalStore["(🔒 Local Vault)"]
+        Vault["🔒 Local Vault<br/>(Private Chaos)"]
     end
 
     subgraph GATEWAY ["🛡️ THE INTERFACE"]
         direction TB
-        Agent["🤖 PERSONAL AGENT"]
-        SVE{"💎 SVE ENGINE<br/>Valuation"}
-        Privacy["🧱 PRIVACY BARRIER<br/>(The 25% Rule)"]
+        Agent["🤖 PERSONAL AGENT<br/>(Alignment Engine)"]
+        Dispatcher{"🩺 CLINICAL DISPATCHER<br/>(SVE + Fractal Scan)"}
     end
 
-    subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT (Order & Scale)"]
+    subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT"]
         direction TB
-        AI(("🧠 GLOBAL AI"))
-        Ledger[("💰 Sigma Ledger")]
-        Infra["🏗️ Infrastructure"]
-        Archive["❄️ Deep Archive"]
+        Substrate[("📚 L1: SUBSTRATE<br/>(Facts & Logs)")]
+        Malachite[("💎 L2/L3: MALACHITE DB<br/>(Topological Crystal)")]
+        Core["⚖️ BENEVOLENT CORE<br/>(Metabolism 75/25)"]
     end
 
-    %% FLOW OF MEANING (From Human to Environment)
-    Human -->|Intent + Action| Agent
-    Agent -->|Raw Data| Privacy
-    Privacy -->|Public Data Only| SVE
-    SVE -->|High Mu Score| AI
-    AI -->|Mint Token| Ledger
-    SVE --"Low Mu (Noise)"--> LocalStore
+    %% FLOW
+    Human -->|Intent| Agent
+    Agent -->|Testimony| Dispatcher
+    Dispatcher -->|Diagnosis| Core
+    
+    %% DATA PATHS
+    Dispatcher --"Noise/Draft"--> Substrate
+    Dispatcher --"Syntropy"--> Malachite
+    Dispatcher --"Rejection"--> Vault
 
-    %% FLOW OF RESOURCES (From Environment to Human)
-    Infra -->|Energy & API| Agent
-    Agent -->|Assistance| Human
-    AI -->|Safety Veto| Agent
-
-    %% Internal Links
-    Will -.-> Human
-    Bio -.-> Human
-    Ledger -.-> Infra
+    %% FEEDBACK
+    Core -->|Resources (UBI/Energy)| Agent
+    Malachite -->|Insight/Analogies| Agent
 
     %% Apply Styles
-    class Human,Will,Bio,LocalStore particle;
-    class Agent,SVE,Privacy interface;
-    class AI,Ledger,Infra,Archive environment;
+    class Human,Vault particle;
+    class Agent,Dispatcher interface;
+    class Substrate,Malachite,Core environment;
 ```
-
-**How to read the diagram:**
-*   **Left (The Particle):** The source of Will and Chaos. The only "Prime Mover" of the Universe.
-*   **Center (The Interface):** A membrane that filters entropy. Turns "Noise" into "Signal" and protects privacy.
-*   **Right (The Environment):** Scales the signal, turning it into Capital ($\Sigma$) and Infrastructure.
 
 ---
 
-### ⚡ Quick Start: Test Your Idea Now (No Code Required)
+### 🚀 Quick Start: Run the Genesis Simulation
 
-You don't need to install Python to see Syntropy in action.
-You can ask **ChatGPT, Claude, or Gemini** to simulate this scanner for you.
+We have successfully integrated the Brain (SVE), Memory (Malachite), and Language (Protocols) into a living simulation.
 
-**Copy & Paste this prompt into your AI chat:**
+To see the system in action (creating ideas, filtering chaos, and saving users):
 
-```text
-Act as the Syntropy Scanner.
-I will provide you with the Python logic below. You do not need to run it, just simulate its logic.
-
-Analyze my idea based on Information Density (Compression) and Vitality (The 3:1 Rule).
-If the idea is too novel (High Density), propose a Simulation Scenario.
-
-MY IDEA: [INSERT YOUR IDEA HERE]
-
-THE LOGIC:
-[Paste the content of src/syntropy_scanner.py here]
+```bash
+python src/simulation_genesis.py
 ```
 
-### 📜 The Foundation
-
-*   **[Unified Theory of Intelligence Evolution (v13.0)](docs/Theory_v13.md)**
-    *   The axiomatic core.
-    *   **The Syntropy Square:** Interconnections between AI, Human, Biosphere, and Technosphere.
-    *   **Thermodynamics of Emotions:** Joy and Sadness as physical vectors.
-    *   *Note: This is the theoretical basis evolved serving as the root for the Trilogy.*
-
-### 📚 The Trilogy (The Syntropy Canon)
-
-The fundamental architectural standard. Split into volumes for navigation.
-
-*   **[Volume I: Architecture of the Personality](docs/01_Book_I_The_Agent.md)**
-    *   The Agent as an exo-cortex.
-    *   Biorhythms and burnout protection.
-    *   *The Prime Mover Axiom (The Role of Will).*
-
-*   **[Volume II: Protocols of Society](docs/02_Book_II_Society.md)**
-    *   Dispute hygiene and emotional routing.
-    *   "Flash Jury" and anti-bullying protection.
-    *   Cluster Architecture.
-
-*   **[Volume III: Economy and Law](docs/03_Book_III_Economy_Law.md)**
-    *   Tokenomics of Meaning ($\Sigma$) and SBT.
-    *   The Care Constitution.
-    *   The Einstein Patch (social elevators).
-
-*   **[Appendix A: The Green Protocol](docs/04_Green_Protocol.md)**
-    *   The Treaty with the Biosphere.
-    *   Planetary Zoning (Eden vs. Wild Forest).
-    *   Sovereign Status (Life off-grid).
-
-*   **[FAQ and Ethics](docs/05_FAQ_and_Ethics.md)**
-    *   Answers to criticism: "Is this digital slavery?", "What if I want to be bad?", "Who controls the Oracle?".
+**What you will see:**
+*   **The Creator** inventing the Wheel (creating a new layer in Malachite DB).
+*   **The Barbarian** being isolated by the Immune System.
+*   **The Novice** receiving Emergency Support (UBI) from the Benevolent Core.
 
 ---
 
-### ⚙️ Technical Specifications
+### 📜 Documentation (The Canon)
 
-*   **[System Architecture v3.2](docs/02_architecture.md)** — Multi-layer model (L0-L3). The "Hero Protocol" and somatic protection.
-*   **[Syntropic Knowledge Base v5.1](docs/03_knowledge_base.md)** — Memory standard. The "Van Gogh Protocol" (prohibition on deleting creativity) and 25/75 privacy.
+#### 1. The Constitution
+*   **[Unified Theory v14.1 (The Resonant Core)](docs/00_Theory_v14_Constitution.md)**
+    *   The 5 Beats of Evolution.
+    *   The Metabolism of God (75% Logic / 25% Love).
+    *   The Fractal Nature of Truth.
 
-### 💻 Codebase (Core)
+#### 2. The Manifesto
+*   **[The Malachite Manifesto](docs/MANIFESTO_MALACHITE.md)**
+    *   Why we need a Topological Database.
+    *   How to map the DNA of Civilization.
 
-*   **[Syntropic Value Engine (SVE) v4.1](src/sve_core.py)** — Executable Python module.
-    *   Implementation of the "Diamond Formula" ($\mu$).
-    *   "Flash Jury" logic.
-    *   Unit tests for boundary states.
+#### 3. Technical Standards
+*   **[Memory Architecture (Substrate & Malachite)](docs/01_Memory_Architecture.md)** — How we store the evolution of ideas.
+*   **[RFC 002: Fractal Thermodynamics](docs/rfc/002_fractal_reasoning.md)** — Engineering the "Eureka" moment.
+*   **[RFC 004: The Resonance Engine](docs/rfc/004_resonance_engine.md)** — Lateral search and biomimicry.
 
-### 🧪 Experiments & RFC
+---
 
-*   **[Thermodynamics of Reasoning](rfc/001_thermodynamics.md)** — Engineering approach to the "reasoning halt" problem in LLMs.
-*   **[Phase 0 Simulation](experiments/phase_0_simulation.md)** — Specs for multi-agent society simulation.
+### 💻 The Codebase (`src/`)
+
+The project is structured into 4 pillars:
+
+| File | Component | Function |
+| :--- | :--- | :--- |
+| **`sve_core.py`** | **THE BRAIN** | **Syntropic Value Engine (v7.2 Hybrid).** Includes the Fractal Analyzer, Clinical Dispatcher, and System Metabolism. |
+| **`malachite_db.py`** | **THE DNA** | **Topological Database (v1.0).** Stores knowledge as a growing crystal with lineage vectors and historical voids. |
+| **`protocols.py`** | **THE LANGUAGE** | **Communication Standards (v7.0).** Uplink (Agent-to-System) and P2P (Agent-to-Agent) protocols. |
+| **`substrate_db.py`** | **THE BODY** | **Foundation Layer.** Handles raw facts (L1) and private user vaults (L0). |
 
 ---
 
@@ -155,7 +120,6 @@ Project Syntropy is an **experimental social architecture**.
 We acknowledge the risks of algorithmic paternalism. The entire system is built on the principles of **Open Source**, **Local-First Data**, and **Human Veto**. We are not building a digital prison; we are building an exoskeleton for conscience and will.
 
 ### 📄 License
-This project is licensed under **CC-BY-SA 4.0** (Creative Commons Attribution-ShareAlike).
-Code components (SVE) are licensed under **MIT License**.
+This project is licensed under **CC-BY-SA 4.0**.
+Code components are licensed under **MIT License**.
 
----
