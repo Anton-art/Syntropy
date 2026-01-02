@@ -41,8 +41,8 @@ graph TB
     %% --- ENVIRONMENT (BOTTOM LAYER) ---
     subgraph L1_L3_ZONE ["🌍 L1-L3: ENVIRONMENT"]
         direction LR
-        Substrate["📚 L1: SUBSTRATE<br/>(Facts & Logs)"]
-        Malachite["💎 L2/L3: MALACHITE<br/>(Topological Crystal)"]
+        Substrate[("📚 L1: SUBSTRATE<br/>(Facts & Logs)")]
+        Malachite[("💎 L2/L3: MALACHITE<br/>(Topological Crystal)")]
         Core["⚖️ BENEVOLENT CORE<br/>(Metabolism 75/25)"]
     end
 
@@ -56,10 +56,10 @@ graph TB
     Dispatcher -->|Noise/Draft| Substrate
     Dispatcher ==>|Syntropy| Malachite
     
-    %% Feedback Loops (Curved Lines)
-    Dispatcher -.->|Rejection| Vault
-    Core -.->|Resources (UBI)| Agent
-    Malachite -.->|Insight| Agent
+    %% Feedback Loops (FIXED SYNTAX HERE)
+    Dispatcher -. "Rejection" .-> Vault
+    Core -. "Resources (UBI)" .-> Agent
+    Malachite -. "Insight" .-> Agent
     
     %% Internal Logic
     Dispatcher -->|Diagnosis| Core
@@ -69,6 +69,11 @@ graph TB
     class Agent,Dispatcher interface;
     class Substrate,Malachite,Core environment;
 ```
+**How to read the diagram:**
+*   **Top (The Particle):** The source of Will. Includes the Human and their private, encrypted Vault (L0).
+*   **Center (The Interface):** The vertical gateway. The Agent translates intent, and the Dispatcher filters entropy.
+*   **Bottom (The Environment):** The foundation. Stores facts (Substrate), evolves knowledge (Malachite), and manages energy (Benevolent Core).
+
 ---
 
 ### 🚀 Quick Start: Run the Genesis Simulation
