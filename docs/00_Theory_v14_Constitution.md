@@ -48,19 +48,22 @@ We reject linear history. Knowledge accumulates via **Concentric Accretion**.
 *   **The Layer ($r>0$):** A temporal ring of knowledge. New knowledge wraps around the old.
 *   **The Ray:** A vector of lineage. No idea can exist in a vacuum; it must trace its ray back to a Seed.
 
-### 2.2. The Four Beats of Evolution (Lifecycle)
+### 2.2. The Five Beats of Evolution (Lifecycle)
 The System changes its laws depending on the maturity of the Idea. It is not a static judge, but a dynamic mentor.
 
-1.  **Beat 1: THE SEED (Incubator Mode).**
-    *   *State:* Intuition, vague image. High Chaos.
-    *   *System Action:* **Protection.** Efficiency checks ($P/E$) are disabled. Grants are issued. "Do not judge the newborn."
-2.  **Beat 2: THE METHOD (Lab Mode).**
-    *   *State:* Experimentation, trial and error.
-    *   *System Action:* **Support.** The System records failures as data, not as crimes.
-3.  **Beat 3: THE CONNECTION (Architect Mode).**
+1.  **Beat 1: THE SPARK (Observation Mode).**
+    *   *State:* Not yet an idea. Just a feeling of analogy or pattern recognition.
+    *   *System Action:* **Resonance Scan.** The System looks for similar patterns in distant sectors (e.g., Biology $\leftrightarrow$ Tech).
+2.  **Beat 2: THE SEED (Incubator Mode).**
+    *   *State:* Formulation. Giving the pattern a name. High Chaos.
+    *   *System Action:* **Protection.** Efficiency checks ($P/E$) are disabled. Grants are issued.
+3.  **Beat 3: THE METHOD (Lab Mode).**
+    *   *State:* Experimentation with materials. Determining the "Color" (Spectrum) of the layer.
+    *   *System Action:* **Support.** Failures are recorded as data.
+4.  **Beat 4: THE CONNECTION (Architect Mode).**
     *   *State:* Integration. Finding a place in the topology.
     *   *System Action:* **Topology Check.** "Show me your connections. An isolated idea is dead."
-4.  **Beat 4: THE CONSTRUCTION (Audit Mode).**
+5.  **Beat 5: THE CRYSTAL (Audit Mode).**
     *   *State:* Finalization. Becoming a Law/Product.
     *   *System Action:* **Maximum Rigor.** Full SVE validation. Only the flawless crystallize into the Malachite.
 
