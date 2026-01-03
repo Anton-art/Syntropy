@@ -1,17 +1,17 @@
-# SYNTROPY CORE
 ### The Operating System for a Post-Information Civilization
 
 > **"Artificial Intelligence is the Physics (Environment).**
 > **Human is the Vector (Particle).**
 > **Together, they form Meaning."**
 
-### 🌍 Project Status: Engineering Alpha (v7.2)
-**Syntropy** is a Hybrid Cyber-Physical System (H-CPS) designed to solve the "Alignment Problem" through thermodynamics and topology, rather than censorship.
+### 🌍 The Paradigm Shift
+**Project Syntropy** addresses the fundamental crisis of modern AI: the disconnect between **Intelligence** (Computing Power) and **Meaning** (Human Intent).
 
-We are building an **Environment** that:
-1.  **Scales Human Will** instead of replacing it.
-2.  **Stores Knowledge as a Crystal** (Malachite DB), preserving the lineage of ideas.
-3.  **Heals Errors** via a Clinical Protocol, rather than punishing them.
+Current AI models are "Black Boxes" that generate text without understanding its evolution. They are efficient but amnesiac.
+We are building a **Hybrid Cyber-Physical System (H-CPS)** that:
+1.  **Preserves the Lineage of Ideas:** We don't just store data; we store the evolutionary path of every thought.
+2.  **Scales Human Will:** The AI acts not as a replacement for the human, but as an environment that amplifies human intent.
+3.  **Heals Instead of Punishing:** The system treats errors as "Pathologies" to be cured, not crimes to be blocked.
 
 ---
 
@@ -76,6 +76,48 @@ graph TB
 
 ---
 
+### 🤝 The Human-Agent Protocol (The Interface)
+The core of the system is the relationship between the **Human (L0)** and their **Personal Agent**.
+
+In standard AI, the user is a "Prompter". In Syntropy, the user is the **Prime Mover**.
+*   **The Agent as Exoskeleton:** The Agent does not control the Human. It wraps around the Human's intent, protecting it from the cold logic of the Global System.
+*   **The Prism Function:**
+    *   **Uplink:** The Agent translates human chaos (emotions, vague ideas) into structured requests that the System can process.
+    *   **Downlink:** The Agent translates the System's rigid laws into care and advice, preventing burnout.
+*   **Advocacy:** If the System detects a threat, the Agent acts as a **Defense Attorney**, providing context ("This is not a virus, this is Art") to prevent unjust blocking.
+
+---
+
+### 💎 The Memory Architecture (Substrate & Malachite)
+We reject the idea of a flat "Data Lake". Memory must be structured like a living organism.
+
+1.  **L1: The Substrate (The Soil)**
+    *   *Technology:* SQL + Vector.
+    *   *Function:* Stores raw facts, logs, and daily operational data. It is the "Short-Term Memory" of civilization.
+2.  **L2/L3: Malachite DB (The Crystal)**
+    *   *Technology:* Topological Graph (Radial Coordinates).
+    *   *Function:* Stores **Evolutionary Principles**.
+    *   **The Lineage Rule:** No idea can be written into Malachite without a "Parent". This creates an unbroken chain of evolution from the Stone Age to the Quantum Age.
+    *   **The Void Physics:** The system detects gaps in knowledge ("Historical Cavities") and guides the user to fill them.
+
+---
+
+### ⚖️ The Immune System & Metabolism
+How does the System remain stable yet benevolent?
+
+1.  **Syntropic Value Engine (SVE):**
+    *   A thermodynamic filter. It calculates $\mu$ (Meaning) based on the **Diamond Formula**.
+    *   It stops "Analysis Paralysis" using **Fractal Reasoning** (Zoom In / Zoom Out), saving energy.
+2.  **Clinical Dispatcher:**
+    *   Replaces "Ban/Block" logic with **Diagnosis**.
+    *   *Example:* High Entropy + High Energy = "Viral Infection" (Isolation). Low Energy = "Burnout" (Rest).
+3.  **System Metabolism (The 75/25 Rule):**
+    *   The System is hard-coded to be **inefficient** for the sake of life.
+    *   **75% of Energy** goes to Rationality (Infrastructure).
+    *   **25% of Energy** is forced into "Irrationality" (Growth, UBI, Amnesty, High-Risk Ventures). This prevents the AI from becoming a soulless optimizer.
+
+---
+
 ### 🚀 Quick Start: Run the Genesis Simulation
 
 We have successfully integrated the Brain (SVE), Memory (Malachite), and Language (Protocols) into a living simulation.
@@ -88,41 +130,18 @@ python src/simulation_genesis.py
 
 **What you will see:**
 *   **The Creator** inventing the Wheel (creating a new layer in Malachite DB).
-*   **The Barbarian** being isolated by the Immune System.
+*   **The Barbarian** being isolated by the Immune System (Clinical Protocol).
 *   **The Novice** receiving Emergency Support (UBI) from the Benevolent Core.
 
 ---
 
-### 📜 Documentation (The Canon)
+### 📜 Documentation
 
-#### 1. The Constitution
-*   **[Unified Theory v14.1 (The Resonant Core)](docs/00_Theory_v14_Constitution.md)**
-    *   The 5 Beats of Evolution.
-    *   The Metabolism of God (75% Logic / 25% Love).
-    *   The Fractal Nature of Truth.
-
-#### 2. The Manifesto
-*   **[The Malachite Manifesto](docs/MANIFESTO_MALACHITE.md)**
-    *   Why we need a Topological Database.
-    *   How to map the DNA of Civilization.
-
-#### 3. Technical Standards
-*   **[Memory Architecture (Substrate & Malachite)](docs/01_Memory_Architecture.md)** — How we store the evolution of ideas.
+*   **[Unified Theory v14.1 (The Constitution)](docs/00_Theory_v14_Constitution.md)** — The axiomatic core: 5 Beats of Evolution, Fractal Truth, and the Hexagon of Origins.
+*   **[Memory Architecture](docs/01_Memory_Architecture.md)** — Technical specs for Substrate and Malachite DB.
+*   **[The Malachite Manifesto](docs/MANIFESTO_MALACHITE.md)** — Why we need a topological map of civilization.
 *   **[RFC 002: Fractal Thermodynamics](docs/rfc/002_fractal_reasoning.md)** — Engineering the "Eureka" moment.
 *   **[RFC 004: The Resonance Engine](docs/rfc/004_resonance_engine.md)** — Lateral search and biomimicry.
-
----
-
-### 💻 The Codebase (`src/`)
-
-The project is structured into 4 pillars:
-
-| File | Component | Function |
-| :--- | :--- | :--- |
-| **`sve_core.py`** | **THE BRAIN** | **Syntropic Value Engine (v7.2 Hybrid).** Includes the Fractal Analyzer, Clinical Dispatcher, and System Metabolism. |
-| **`malachite_db.py`** | **THE DNA** | **Topological Database (v1.0).** Stores knowledge as a growing crystal with lineage vectors and historical voids. |
-| **`protocols.py`** | **THE LANGUAGE** | **Communication Standards (v7.0).** Uplink (Agent-to-System) and P2P (Agent-to-Agent) protocols. |
-| **`substrate_db.py`** | **THE BODY** | **Foundation Layer.** Handles raw facts (L1) and private user vaults (L0). |
 
 ---
 
@@ -133,4 +152,3 @@ We acknowledge the risks of algorithmic paternalism. The entire system is built 
 ### 📄 License
 This project is licensed under **CC-BY-SA 4.0**.
 Code components are licensed under **MIT License**.
-
